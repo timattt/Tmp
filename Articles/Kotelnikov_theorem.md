@@ -61,6 +61,6 @@ Ws < Wd/2
 
 Причем восстановление сигнала из его цифрового варианта может выполняться по формуле:
 
-![image](https://user-images.githubusercontent.com/25401699/160105288-ae2ffab5-8f64-43a1-8904-52991ff834cf.png)
+![image](https://user-images.githubusercontent.com/25401699/160105348-364447ad-5fab-4c8a-b3b1-7d8e8133fb9e.png)
 
 
