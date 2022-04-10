@@ -92,5 +92,40 @@
 
 ![image](https://user-images.githubusercontent.com/25401699/162619336-aa56f7c2-0489-4494-ba57-4a5573b2138d.png)
 
+## Лекция 6
+
+### Периодическая последовательность единичных импульсов с периодом 1
+
+![image](https://user-images.githubusercontent.com/25401699/162620131-a54c5058-3ef9-4602-b724-ca138ea64d65.png)
+
+### Периодическая последовательность единичных импульсов с периодом L
+
+![image](https://user-images.githubusercontent.com/25401699/162620151-dd7d6228-89f8-404a-a266-a899e7857206.png)
+
+### Комплексная экспонента
+
+![image](https://user-images.githubusercontent.com/25401699/162620228-2eb44216-e043-410e-952c-db107c25e584.png)
+
+### Косинус
+
+![image](https://user-images.githubusercontent.com/25401699/162620276-f7adb2b2-9bab-4cde-a2e8-28ef33802630.png)
+
+![image](https://user-images.githubusercontent.com/25401699/162620279-73bb84e4-5e25-4747-a233-2500065b3a14.png)
+
+### Периодическая последовательность из N отсчетов в общем виде
+
+![image](https://user-images.githubusercontent.com/25401699/162620414-3c0da56e-a7ce-4c12-8755-0fa7ece4a234.png)
+
+## Лекция 7
+
+![image](https://user-images.githubusercontent.com/25401699/162621276-8c924f0d-1756-4653-b429-ed177324a9f7.png)
+
+### Матричная форма
+
+![image](https://user-images.githubusercontent.com/25401699/162621284-397a9d87-d147-408e-9079-3c75c9c1c09c.png)
+
+![image](https://user-images.githubusercontent.com/25401699/162621293-f99e0371-e1e5-4bae-9b9f-cc7bcbc480f7.png)
+
+![image](https://user-images.githubusercontent.com/25401699/162621300-3fcb34c1-3b0d-4d5a-ac16-f6e13188e00c.png)
 
 
