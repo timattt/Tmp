@@ -58,4 +58,39 @@
 
 ## Лекция 4
 
+## Лекция 5
+
+### Дискретное во времени преобразование Фурье
+
+![image](https://user-images.githubusercontent.com/25401699/162618577-42ad3796-9b6a-4e8a-be8c-0d4a587102a0.png)
+
+Здесь дельта т - шаг дискретизации.
+
+![image](https://user-images.githubusercontent.com/25401699/162618689-46372654-58fe-47ee-8a3b-d1cc28406591.png)
+
+![image](https://user-images.githubusercontent.com/25401699/162618708-774d8e63-d29c-46aa-a36b-f16b9ab92ec3.png)
+
+![image](https://user-images.githubusercontent.com/25401699/162618713-74466233-5ee2-4c62-b22e-0507bf732788.png)
+
+![image](https://user-images.githubusercontent.com/25401699/162618716-53600305-07c7-4a5e-a9bb-6dd0111e23ea.png)
+
+### Свойства ДВПФ
+
+![image](https://user-images.githubusercontent.com/25401699/162619198-d356968b-74bc-4edf-9ad8-0c2f3ba4507b.png)
+
+![image](https://user-images.githubusercontent.com/25401699/162619205-e73ed560-363d-4b38-8526-d5309a32e2f8.png)
+
+![image](https://user-images.githubusercontent.com/25401699/162619213-750c56c3-add6-461a-895d-7398d62fb6bb.png)
+
+![image](https://user-images.githubusercontent.com/25401699/162619308-a9f598d6-697b-4520-b769-afe83753a987.png)
+
+![image](https://user-images.githubusercontent.com/25401699/162619314-fb342df6-d91a-4bad-bb0d-96f6cc9d9052.png)
+
+![image](https://user-images.githubusercontent.com/25401699/162619320-048c6601-50f1-4286-a206-526e14850648.png)
+
+![image](https://user-images.githubusercontent.com/25401699/162619329-012623c4-999a-4472-9726-6350f20627a3.png)
+
+![image](https://user-images.githubusercontent.com/25401699/162619336-aa56f7c2-0489-4494-ba57-4a5573b2138d.png)
+
+
 
