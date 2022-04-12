@@ -128,4 +128,18 @@
 
 ![image](https://user-images.githubusercontent.com/25401699/162621300-3fcb34c1-3b0d-4d5a-ac16-f6e13188e00c.png)
 
+## Лекция 8
+
+### Было
+
+![image](https://user-images.githubusercontent.com/25401699/162893572-f8e80d45-4502-4f22-9ee0-af26fe8fcfcc.png)
+
+### Стало
+
+![image](https://user-images.githubusercontent.com/25401699/162893653-30c8fde6-57b1-46c0-849c-7ff50dda34c8.png)
+
+### Общая формула ББП
+
+![image](https://user-images.githubusercontent.com/25401699/162893462-fd6b2a2b-4a83-4ab5-84a9-3374cb1a3afe.png)
+
 
