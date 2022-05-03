@@ -88,6 +88,6 @@ U't(t = 0, x) = 0
 
 Нарисуем итоговую картинку того, что получилось.
 
-![image](https://user-images.githubusercontent.com/25401699/166504323-13efc382-fe92-460b-972a-337ca5954744.png)
+![Wave_equation_1D_fixed_endpoints](https://user-images.githubusercontent.com/25401699/166504463-e3adf09b-1bcb-48b6-ad97-3bb72d9e20df.gif)
 
 Как видим, волна распространяется по струне, а концы закреплены. Все, как мы и заказывали.
