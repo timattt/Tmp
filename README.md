@@ -8,3 +8,4 @@
 2. [**Теорема Котельникова**](https://github.com/timattt/Tmp/blob/main/Articles/Kotelnikov_theorem.md)
 3. [**ДПС**](https://github.com/timattt/Tmp/blob/main/Articles/DSC.md)
 4. [**Политика конфиденциальности для приложений**](https://github.com/timattt/Tmp/blob/main/privacy.md)
+5. [**Идея для игры на основе вычфизики**](https://github.com/timattt/Tmp/blob/main/Articles/ThermalGameIdea.md)
