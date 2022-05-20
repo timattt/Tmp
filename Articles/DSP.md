@@ -17,3 +17,19 @@
 ![image](https://user-images.githubusercontent.com/25401699/169527965-020e66cd-cae2-47c3-a106-9f4f2234174f.png)
 
 ![image](https://user-images.githubusercontent.com/25401699/169528199-aedb739f-c935-438a-a7e6-1b23719ee156.png)
+
+![image](https://user-images.githubusercontent.com/25401699/169528967-1c86487e-80f5-40a0-824f-d2caf3f5ad5b.png)
+
+![image](https://user-images.githubusercontent.com/25401699/169529111-d038d8dc-4c4f-4de2-8ea5-d53ec9ac6223.png)
+
+![image](https://user-images.githubusercontent.com/25401699/169529155-f6cf89fc-29d1-41b9-ba1f-3567557425dc.png)
+
+![image](https://user-images.githubusercontent.com/25401699/169529219-ea266547-8c0c-4f87-ac1e-05903d658701.png)
+
+![image](https://user-images.githubusercontent.com/25401699/169529253-54183f3d-8508-40f5-b8b6-8f379a2196fa.png)
+
+![image](https://user-images.githubusercontent.com/25401699/169529314-a1860899-a310-4605-a04d-4c68ce28592b.png)
+
+### Интеграл Лебега
+
+![image](https://user-images.githubusercontent.com/25401699/169535612-f7ab4c93-98f7-40ea-bdd2-fb25b1676896.png)
