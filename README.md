@@ -9,3 +9,4 @@
 3. [**ДПС**](https://github.com/timattt/Tmp/blob/main/Articles/DSC.md)
 4. [**Политика конфиденциальности для приложений**](https://github.com/timattt/Tmp/blob/main/privacy.md)
 5. [**Заметки по машинному обучению**](https://github.com/timattt/Tmp/blob/main/Articles/MachineLearning.md)
+6. [**EXT2**](https://github.com/timattt/Tmp/blob/main/Articles/EXT2.md)
