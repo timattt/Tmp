@@ -15,9 +15,21 @@ core - тут сама логика игры.
 testScenario - это часть кода использует все предыдущие. Но она подключается ДИНАМИЧЕСКИ во время игры, если пользователь выбрал соотвествующий сценарий.
 
 То есть что я хочу при deploy - чтобы все три части скомпилировались в отдельные jar-файлы. И потом чтобы была такая структура каталога:
--Engine.jar
--Game.jar
--Resources
+
+* Engine.jar
+* Game.jar
+* Resources/scenarios/TestScenario/TestScenario.jar
+* Resources/engine/... (это ресурсы из [движка](https://github.com/timattt/TheChapterLegacy/tree/master/3D%20Engine/Resources))
+* Resources/... (это ресурсы из самой [игры](https://github.com/timattt/TheChapterLegacy/tree/master/3D%20Engine/Resources))
+* Resources/scenarios/TestScenario/Resources/... (ресурсы из сценария - они сейчас лежат [тут](https://github.com/timattt/TheChapterLegacy/tree/master/TheChapter/Resources/scenarios/TestScenario/Resources), но надо, чтобы они лежали в отдельной папке и оттуда копировались)
 
 В папку Resources надо скопировать ресурсы из [Core](https://github.com/timattt/TheChapterLegacy/tree/master/3D%20Engine/Resources)
-и [движка](https://github.com/timattt/TheChapterLegacy/tree/master/3D%20Engine/Resources).
+и [движка](https://github.com/timattt/TheChapterLegacy/tree/master/3D%20Engine/Resources). И еще в эту же папку надо скопировать jar файл сценария и его ресурсы.
+
+Таким образом, в итоге нужно, чтобы структура проекта была такой:
+
+* папка Engine - тут лежит код движка и ресурсы движка
+* папка TheChapter - тут лежит код игры и ее ресурсы
+* папка TestScenario - тут лежит код сценария и его ресурсы
+
+И поверх этого всего нужны gradle скрипты для запуска и deploy.
