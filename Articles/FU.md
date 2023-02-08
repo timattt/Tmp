@@ -29,3 +29,16 @@
 ![image](https://user-images.githubusercontent.com/25401699/217467418-4ac8ef7c-c51a-4b85-a536-09f0da81017c.png)
 
 ![image](https://user-images.githubusercontent.com/25401699/217467600-37a72ff4-b5db-45bc-9912-0daaaa202cc0.png)
+
+## 6
+
+(тут открывают новые течения)
+
+![image](https://user-images.githubusercontent.com/25401699/217468529-588fad7a-c964-4cb7-b2dc-ff59a317bcb3.png)
+
+![image](https://user-images.githubusercontent.com/25401699/217469000-69153110-8f49-4937-ab65-733012150269.png)
+
+50 человек на Вавилове
+
+![image](https://user-images.githubusercontent.com/25401699/217469237-bf737633-bfb4-43c9-aa6a-0ce7c810e0e7.png)
+
