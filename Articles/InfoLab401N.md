@@ -73,4 +73,12 @@
 
 ![image](https://user-images.githubusercontent.com/25401699/218045191-544a21b3-2c63-4740-b8ba-2eba0a6e71de.png)
 
+## 5.6
+
+(VCGrey4RE)
+
+Этот счетчик выдает [коды грея](http://e-maxx.ru/algo/gray_code).
+
+![image](https://user-images.githubusercontent.com/25401699/218048150-1e0a856e-d2fb-4e64-bdd3-27d421567838.png)
+
 
