@@ -64,3 +64,13 @@
 
 ![image](https://user-images.githubusercontent.com/25401699/218042657-90911aca-5157-4456-b1dd-c2c4f3eedef1.png)
 
+## 5.5
+
+(VCJmRE)
+
+Это какой-то странный счетчик.
+Смысл сводится к тому, что он прибавляет или убавляет степени двойки.
+
+![image](https://user-images.githubusercontent.com/25401699/218045191-544a21b3-2c63-4740-b8ba-2eba0a6e71de.png)
+
+
