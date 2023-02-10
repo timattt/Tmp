@@ -16,3 +16,4 @@
 10. [**Space plunder idea**](https://github.com/timattt/Tmp/blob/main/Articles/SpacePlunder.md)
 11. [**No step back arts**](https://github.com/timattt/Tmp/blob/main/Articles/NoStepBack.md)
 12. [**Floating univ**](https://github.com/timattt/Tmp/blob/main/Articles/FU.md)
+13. [**Lab401 infocom**](https://github.com/timattt/Tmp/blob/main/Articles/InfoLab401N.md)
