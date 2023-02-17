@@ -86,7 +86,7 @@
 ## 7.1
 
 CB2CE: 2 Т-триггера FTCE 
-VCBmCLED: 2 триггера FTCLEX 
+VCBmCLED: 2 т-триггера FTCLEX 
 VCB4RE: 4 триггера CB2CE
 VCD4RE: 4 триггера CB2CE
 VCJ4RE: 4 D-триггера
@@ -113,4 +113,6 @@ $$F_{max} = \frac{1}{(m-1) * T_{1}+T_{2}}$$
 
 ![image](https://user-images.githubusercontent.com/25401699/219596998-32913284-6f94-4386-b9b5-fd3af51235bc.png)
 
+## 7.6
 
+![image](https://user-images.githubusercontent.com/25401699/219599403-853f229c-664a-4d33-9d2d-3d96aff05f2d.png)
