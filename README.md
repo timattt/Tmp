@@ -17,3 +17,4 @@
 11. [**No step back arts**](https://github.com/timattt/Tmp/blob/main/Articles/NoStepBack.md)
 12. [**Floating univ**](https://github.com/timattt/Tmp/blob/main/Articles/FU.md)
 13. [**Lab401 infocom**](https://github.com/timattt/Tmp/blob/main/Articles/InfoLab401N.md)
+14. [**Lab414N95**](https://github.com/timattt/Tmp/blob/main/Articles/Lab414N95.md)
