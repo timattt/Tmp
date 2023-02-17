@@ -85,11 +85,11 @@
 
 ## 7.1
 
-CB2CE: 2 Т-триггера FTCE 
-VCBmCLED: 2 т-триггера FTCLEX 
-VCB4RE: 4 триггера CB2CE
-VCD4RE: 4 триггера CB2CE
-VCJ4RE: 4 D-триггера
+* CB2CE: 2 Т-триггера FTCE 
+* VCBmCLED: 2 т-триггера FTCLEX 
+* VCB4RE: 4 триггера CB2CE
+* VCD4RE: 4 триггера CB2CE
+* VCJ4RE: 4 D-триггера
 
 ## 7.2
 
