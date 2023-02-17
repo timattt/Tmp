@@ -81,3 +81,14 @@
 
 ![image](https://user-images.githubusercontent.com/25401699/218048150-1e0a856e-d2fb-4e64-bdd3-27d421567838.png)
 
+# Контрольные вопросы
+
+## 7.1
+
+CB2CE: 2 Т-триггера FTCE 
+VCBmCLED: 2 триггера FTCLEX 
+VCB4RE: 4 триггера CB2CE
+VCD4RE: 4 триггера CB2CE
+VCJ4RE: 4 D-триггера
+
+##
