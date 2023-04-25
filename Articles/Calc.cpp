@@ -7,7 +7,8 @@ double P(const char *& start, const char * end);
 double E(const char *& start, const char * end);
 
 // True if start points to requested operator
-bool TryOperators(const char * start, const char * end, const char * ops) {
+bool TryOperators(const char * start, const char * end, const char * ops)
+{
     if (start >= end) {
         return false;
     }
@@ -22,7 +23,8 @@ bool TryOperators(const char * start, const char * end, const char * ops) {
 }
 
 // True if start points to number
-bool TryNumber(const char * start, const char * end) {
+bool TryNumber(const char * start, const char * end)
+{
     if (start >= end) {
         return false;
     }
@@ -33,7 +35,8 @@ bool TryNumber(const char * start, const char * end) {
 }
 
 // Returns operator and moves pointer
-char ConsumeOperator(const char *& start, const char * end, const char * ops) {
+char ConsumeOperator(const char *& start, const char * end, const char * ops)
+{
     if(!TryOperators(start, end, ops)) {
         throw std::string("Some of operators [") + ops + std::string("] was expected");
     }
@@ -41,7 +44,8 @@ char ConsumeOperator(const char *& start, const char * end, const char * ops) {
 }
 
 // Returns number and moves pointer
-double ConsumeNumber(const char *& start, const char * end) {
+double ConsumeNumber(const char *& start, const char * end)
+{
     if (!TryNumber(start, end)) {
         throw std::string("Number was expected");
     }
@@ -49,7 +53,8 @@ double ConsumeNumber(const char *& start, const char * end) {
 }
 
 // K ::= number | (E)
-double K(const char *& start, const char * end) {
+double K(const char *& start, const char * end)
+{
     // number
     if (TryNumber(start, end)) {
         return ConsumeNumber(start, end);
@@ -64,7 +69,8 @@ double K(const char *& start, const char * end) {
 }
 
 // P ::= K {[*/] K}*
-double P(const char *& start, const char * end) {
+double P(const char *& start, const char * end)
+{
     double res = K(start, end);
 
     while (TryOperators(start, end, "/*")) {
@@ -84,7 +90,8 @@ double P(const char *& start, const char * end) {
 }
 
 // E ::= P {[+-] P}*
-double E(const char *& start, const char * end) {
+double E(const char *& start, const char * end)
+{
     double res = P(start, end);
 
     while (TryOperators(start, end, "+-")) {
@@ -103,17 +110,23 @@ double E(const char *& start, const char * end) {
     return res;
 }
 
-double Calculate(const std::string & str) {
-    std::string in = str;
-    std::remove(in.begin(), in.end(), ' ');
-    const char * start = (char*) in.c_str();
-    const char * end = start + in.length();
+double Calculate(std::string & str)
+{
+    const char * start = (char*) str.c_str();
+    const char * end = start + str.length();
     return E(start, end);
 }
 
-int main() {
+int main()
+{
     std::string expr;
-    std::cin >> expr;
-    std::cout << Calculate(expr);
+    std::getline(std::cin, expr);
+    expr.erase(remove_if(expr.begin(), expr.end(), isspace), expr.end());
+
+    try {
+        std::cout << Calculate(expr);
+    } catch (const std::string & err) {
+        std::cout << err << "\n";
+    }
     return 0;
 }
