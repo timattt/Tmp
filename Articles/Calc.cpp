@@ -103,7 +103,7 @@ double E(const char *& start, const char * end) {
     return res;
 }
 
-double calculate(const std::string & str) {
+double Calculate(const std::string & str) {
     std::string in = str;
     std::remove(in.begin(), in.end(), ' ');
     const char * start = (char*) in.c_str();
@@ -114,6 +114,6 @@ double calculate(const std::string & str) {
 int main() {
     std::string expr;
     std::cin >> expr;
-    std::cout << calculate(expr);
+    std::cout << Calculate(expr);
     return 0;
 }
