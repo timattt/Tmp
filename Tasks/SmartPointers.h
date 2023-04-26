@@ -116,7 +116,6 @@ private:
 
     void Acquire()
     {
-        printf("SP acquire\n");
         if (m_pointer != nullptr) {
             if (m_counter == nullptr) {
                 m_counter = new CCounters();
@@ -128,7 +127,6 @@ private:
 
     void Release()
     {
-        printf("SP release\n");
         if (m_counter != nullptr) {
             m_counter->counter--;
             if (m_counter->counter == 0) {
@@ -188,7 +186,6 @@ private:
 
     void Acquire()
     {
-        printf("WP acquire\n");
         if (m_counter != nullptr) {
             m_counter->weakCounter++;
         }
@@ -196,7 +193,6 @@ private:
 
     void Release()
     {
-        printf("WP release\n");
         if (m_counter != nullptr) {
             m_counter->weakCounter--;
 
