@@ -7,7 +7,6 @@
 #include "LazyString.h"
 
 LazyString::LazyString(const char *cStr) {
-    std::cout << "Alloc\n";
     m_length = strlen(cStr);
     m_data = new char[m_length];
     memccpy(m_data, cStr, 1, m_length);
@@ -49,7 +48,6 @@ LazyString::~LazyString() {
 void LazyString::EnsureUnique() {
     if (*m_counter > 1) {
         (*m_counter)--;
-        std::cout << "Copy\n";
         m_counter = new int(1);
         char * old = m_data;
         m_data = new char[m_length];
