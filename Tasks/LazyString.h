@@ -1,16 +1,16 @@
 #pragma once
 
-class LazyString {
+class CLazyString {
 public:
 
-    LazyString(const char * cStr);
-    LazyString(const LazyString & other);
-    LazyString(const LazyString && other);
+    CLazyString(const char * cStr);
+    CLazyString(const CLazyString & other);
+    CLazyString(const CLazyString && other);
     char& operator[](int pos);
     char operator[](int pos) const;
-    void operator+=(const LazyString & other);
+    void operator+=(const CLazyString & other);
     void Print() const;
-    ~LazyString();
+    ~CLazyString();
 
 private:
 
