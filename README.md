@@ -20,3 +20,4 @@
 14. [**Lab414N95**](https://github.com/timattt/Tmp/blob/main/Articles/Lab414N95.md)
 15. [**LAB405ND**](https://github.com/timattt/Tmp/blob/main/Articles/LAB405ND.md)
 16. [**LAB406ADC**](https://github.com/timattt/Tmp/blob/main/Articles/LAB406ADC.md)
+17. [**Билеты по теорсосу**](https://github.com/timattt/Tmp/blob/main/Articles/StatfizBilety.md)
