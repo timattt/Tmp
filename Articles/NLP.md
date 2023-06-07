@@ -43,3 +43,6 @@
 # Multi-head attention
 
 если аттентионов несколько - то каждый будет согласовывать свою информацию - род, число и тд
+
+![image](https://github.com/timattt/Tmp/assets/25401699/44c30482-1b6e-41e3-9213-1fc674facdd8)
+
