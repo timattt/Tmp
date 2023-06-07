@@ -20,6 +20,7 @@
 
 ![image](https://github.com/timattt/Tmp/assets/25401699/a1f2a5fc-8fbe-438a-8713-65aad2eedeff)
 
+* контекст - эмбединг всего предложения, который передается от энкодера декодеру
 
 # attention
 
