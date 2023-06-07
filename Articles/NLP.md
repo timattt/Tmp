@@ -32,5 +32,10 @@
 # attention
 
 * энкодер-декобер забывает о начальных токенах
-* 
+* аттеншн может быть любой функцией (напр, скалярным произведением)
 
+![image](https://github.com/timattt/Tmp/assets/25401699/8bb9f4d2-365d-4d2b-941a-0729c6b2c2fb)
+
+## self-attention
+
+![image](https://github.com/timattt/Tmp/assets/25401699/1f49b084-3fb6-4ed6-a071-a090777fb928)
