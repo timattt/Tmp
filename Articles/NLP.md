@@ -12,8 +12,7 @@
 
 * обучаем нейросеть - на вход onehot слово - на выходе тоже onehot слово. Фактически это задача классификации 
 
-![image](https://github.com/timattt/Tmp/assets/25401699/87516adb-d832-4034-bdea-5417c76a3430)
-
+![image](https://github.com/timattt/Tmp/assets/25401699/3ed4276a-1107-4b4f-bcac-839f275cdd8d)
 
 # seq2seq
 
