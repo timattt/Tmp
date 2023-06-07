@@ -47,3 +47,11 @@
 
 ![image](https://github.com/timattt/Tmp/assets/25401699/44c30482-1b6e-41e3-9213-1fc674facdd8)
 
+# positional encoding
+
+![image](https://github.com/timattt/Tmp/assets/25401699/1d504e8c-d3cc-4d16-b39b-25b888bc4e87)
+
+![image](https://github.com/timattt/Tmp/assets/25401699/9194640f-b3d3-40cd-9ab5-c0422ab1b77a)
+
+* благодаря матрице поворота - можно легко получить линейное преобращование между этими векторами
+
