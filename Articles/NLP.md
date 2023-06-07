@@ -39,3 +39,7 @@
 ## self-attention
 
 ![image](https://github.com/timattt/Tmp/assets/25401699/1f49b084-3fb6-4ed6-a071-a090777fb928)
+
+# Multi-head attention
+
+если аттентионов несколько - то каждый будет согласовывать свою информацию - род, число и тд
