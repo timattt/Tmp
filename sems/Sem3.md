@@ -75,4 +75,8 @@
 <img width="864" alt="image" src="https://github.com/timattt/Tmp/assets/25401699/8b48f4f6-a553-4d52-88f2-d11faf784725">
 <img width="771" alt="image" src="https://github.com/timattt/Tmp/assets/25401699/ec75c45b-4ecc-4db7-9218-65b1f09a796b">
 
+## Builder
+
+<img width="832" alt="image" src="https://github.com/timattt/Tmp/assets/25401699/5f73f377-aae6-4004-92c6-eeb8260c8dbc">
+
 
