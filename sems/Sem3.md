@@ -69,3 +69,10 @@
 
 <img width="433" alt="image" src="https://github.com/timattt/Tmp/assets/25401699/6cfad7ab-7a97-4f8f-a1fd-d8027d2abce1">
 <img width="779" alt="image" src="https://github.com/timattt/Tmp/assets/25401699/d95478b0-f4fc-4d07-b2d5-f965bcd4aebb">
+
+## Abstract factory
+
+<img width="864" alt="image" src="https://github.com/timattt/Tmp/assets/25401699/8b48f4f6-a553-4d52-88f2-d11faf784725">
+<img width="771" alt="image" src="https://github.com/timattt/Tmp/assets/25401699/ec75c45b-4ecc-4db7-9218-65b1f09a796b">
+
+
