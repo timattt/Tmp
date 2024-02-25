@@ -24,7 +24,7 @@ public class A {
 * Сначала компилируем в байткод ```javac A.java```
 * Теперь запускаем ```java A```
 
-### Автоматические системы сборки автоматизируют этот процесс
+### Системы сборки автоматизируют этот процесс
 
 * Есть сборочный файл pom.xml - он описывает конфигурации сборки каждого модуля
 * артефакт — это любая библиотека, хранящаяся в репозитории
@@ -50,3 +50,34 @@ public class A {
   * install: install the package to a local repository
   * deploy: copy the package to the remote repository
   * site: generate documentation
+* минимальный файл pom.xml:
+```
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.mycompany.app</groupId>
+  <artifactId>my-app</artifactId>
+  <version>1</version>
+</project>
+```
+* зависимости:
+```
+<dependencies>
+    <dependency>
+        <groupId/>
+        <artifactId/>
+    </dependency>
+</dependencies>
+```
+* проперти:
+```
+<properties>
+<myproperty>myvalue</myproperty>
+</properties>
+```
+* объявление подмодулей:
+```
+<modules>
+    <module>mymodule</module>
+</modules>
+```
