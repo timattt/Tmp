@@ -32,7 +32,7 @@
 3. [**LAB405ND**](https://github.com/timattt/Tmp/blob/main/Articles/LAB405ND.md)
 4. [**LAB406ADC**](https://github.com/timattt/Tmp/blob/main/Articles/LAB406ADC.md)
 
-### Семинары
+### Семинары по ТП
 
 1. [**Sem1**](https://github.com/timattt/Tmp/blob/main/sems/Sem1.md)
 2. [**Sem2**](https://github.com/timattt/Tmp/blob/main/sems/Sem2.md)
