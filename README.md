@@ -43,3 +43,4 @@
 6. [**Sem6**](https://github.com/timattt/Tmp/blob/main/sems/Sem6.md)
 7. [**Sem7**](https://github.com/timattt/Tmp/blob/main/sems/Sem7.md)
 8. [**Sem8**](https://github.com/timattt/Tmp/blob/main/sems/Sem8.md)
+9. [**Sem9**](https://github.com/timattt/Tmp/blob/main/sems/Sem9.md)
