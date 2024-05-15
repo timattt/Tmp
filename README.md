@@ -13,7 +13,7 @@
 5. [**The chapter scripts TODO**](https://github.com/timattt/Tmp/blob/main/Articles/ScriptsTodo.md)
 6. [**NLP**](https://github.com/timattt/Tmp/blob/main/Articles/NLP.md)
 7. [**Богословие первая половина**](https://github.com/timattt/Tmp/blob/main/Articles/Bogoslovie1.md)
-8. [**Богословие первая половина**](https://github.com/timattt/Tmp/blob/main/Articles/Bogoslovie2.md)
+8. [**Богословие вторая половина**](https://github.com/timattt/Tmp/blob/main/Articles/Bogoslovie2.md)
 
 ### Идеи
 
