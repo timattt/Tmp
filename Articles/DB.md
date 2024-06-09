@@ -38,3 +38,15 @@
 
 ![image](https://github.com/timattt/Tmp/assets/25401699/3b260328-6786-4492-81c5-6fce8f8e7da6)
 
+### Транзакции
+
+![image](https://github.com/timattt/Tmp/assets/25401699/20431c33-0a14-45e7-a807-43b90544b7e9)
+
+### Индексы
+
+![image](https://github.com/timattt/Tmp/assets/25401699/93d367e4-c740-4946-bb1a-7edeb1c87541)
+
+### Ограничения
+
+![image](https://github.com/timattt/Tmp/assets/25401699/a669b1a6-ec78-4cb9-9176-7f5077feaa00)
+
