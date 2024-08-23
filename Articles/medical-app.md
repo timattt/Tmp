@@ -64,7 +64,7 @@
 
 ### Веб-сайт
 
-[Figma](https://www.figma.com/design/4TT8Kek9lx82u0q1uqA4AJ/Med?node-id=0-1&t=ywccseWadASChSBl-0)
+Предварительный дизайн: [Figma](https://www.figma.com/design/4TT8Kek9lx82u0q1uqA4AJ/Med?node-id=0-1&t=ywccseWadASChSBl-0)
 
 
 
