@@ -92,3 +92,17 @@ class A {
 * для быстрого создания строк: StringBuffer и StringBuilder
 * StringBuilder - непотокобезопасен, более быстрый. Есть метод append.
 * StringBuffer - синхронихирован, более старый
+
+## Lombok
+
+* @Getter
+* @setter
+* @Data
+* @AllArgsConstructor
+* @NoArgsConstructor
+* @NonNull
+* @Log
+* @Builder
+* @ToString
+* @EqualsAndHashCode
+* @Cleanup
