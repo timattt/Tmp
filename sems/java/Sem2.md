@@ -93,7 +93,7 @@ int someMethod(int arg) {
 * модуль garden
 * API-сервис GardenService:
   * growNewPlant(type) - возвращает новое растение
-  * observeGarden - возвращает 
+  * observeGarden - возвращает список всех растений
   * setNameGenerator(lambda)
 * SPI-сервис PlantStorageService:
   * savePlant(plant) - сохраняет дерево куда-нибудь
