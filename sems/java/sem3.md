@@ -16,6 +16,18 @@
 
 ## Однопоточные коллекции
 
+### Ассимптотика
+
+![image](https://github.com/user-attachments/assets/13592f9a-3328-4775-af72-cfce99618640)
+
+### Иерархия коллекций
+
+![image](https://github.com/user-attachments/assets/d0e46f82-b749-4a47-982f-ccbebe4e24ba)
+
+### Иерархия словарей
+
+![image](https://github.com/user-attachments/assets/a8e96485-7072-48fb-aad4-e95ea2bb2b8e)
+
 ### Множества
 
 *Интерфейс Set*
