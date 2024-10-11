@@ -1,6 +1,6 @@
 # Семинар
 
-*Рефлексия и аннотации*
+## Рефлексия и аннотации
 
 * Аннотации можно вешать на типы, методы, поля, параметры
 * Параметры при создании аннотаций:
@@ -74,3 +74,62 @@ public static <T> T advancedCache(T target) {
     return (T) result;
 }
 ```
+
+## Nio
+
+* Nio - ```new I/O``` современный стандарт java API для блокирующего/неблокирующего/ассинхронного ввода и вывода
+* Buffer – это контейнер для данных примитивного типа. Фактически массив примитивов.
+* Channel – открытое соединение с объектом, таким как аппаратное устройство, файл, сетевой сокет или программный компонент, который способен выполнять одну или несколько различных операций ввода-вывода, например чтение или запись. В unix это всегда будет файл (socket, pipe, fs ...) Иерархия каналов:
+
+![image](https://github.com/user-attachments/assets/8ae6e1dd-0a1a-402a-8613-6354cce382c1)
+
+красные – блокирующие каналы; пурпурные – асинхронные каналы; зеленые – неблокирующие каналы.
+
+* Блокирующие каналы - реализовывают синхронное чтение. Поток ждет, пока не прочитает все. Есть класс ```Files``` - в нем есть все необходимое для работы. Пример использования:
+
+```java
+void nio_blocking_readFile() throws IOException, URISyntaxException {
+    URL fileUrl = NioTest.class.getResource(testFilePath);
+    var filepath = Path.of(fileUrl.toURI());
+  
+    try (ReadableByteChannel inputChannel = FileChannel.open(filepath)) {
+        var buffer = ByteBuffer.allocate(300_000);
+        int readByteCount = inputChannel.read(buffer);
+      
+        var resultBytes = new byte[readByteCount];
+        //Записываем считанные данные в resultBytes
+        //Если просто вызвать buffer.array(), то если массив больше считываемого файла,
+        //в конце он будет заполнен нулями
+        buffer.get(0, resultBytes);
+        var fileString = new String(resultBytes, StandardCharsets.UTF_8);
+      
+        System.out.println(fileString);
+    }
+}
+```
+
+* Асинхронные каналы - позволяют получить объект future, либо использовать callback, когда операция завершится. Пример использования:
+
+```java
+void nio_async_readFile() throws URISyntaxException, IOException {
+    URL fileUrl = NioTest.class.getResource(testFilePath);
+    var path = Path.of(fileUrl.toURI());
+  
+    try (var inputChannel = AsynchronousFileChannel.open(path)) {
+        var buffer = ByteBuffer.allocate(300_000);
+        Future<Integer> futureResult = inputChannel.read(buffer, 0);
+      
+        while (!futureResult.isDone()) {
+            System.out.println("Файл еще не загружен в буффер");
+        }
+      
+        var fileString = new String(buffer.array(), StandardCharsets.UTF_8);
+        System.out.println(fileString);
+    }
+}
+```
+
+* Неблокирующие каналы - могут переключаться между блокирующим и неблокирующим режимом. Работают с сокетами. Можно включить и выключить блокировку на IO операциях (будет пропуск операции, если данных еще нет).
+* Selector – это объект, относящийся к группе каналов и определяющий, какой канал готов к записи/чтению/подключению и т.д. Под капотом syscall epoll из unix. Для использования с селектором можно использовать только неблокируемые каналы.
+
+
