@@ -233,3 +233,73 @@ class SmartSyncContainer {
 * Многопоточная инициализация. Объявление переменной volatile гарантирует, что другие потоки не
 получат доступ к неинициализированной переменной. Это следует из hb.
 
+## 5 вариантов реализации синглтона
+
+Взято из [статьи](https://habr.com/ru/articles/129494/) 
+
+### 1 Static field
+
+```java
+public class Singleton {
+	public static final Singleton INSTANCE = new Singleton();
+}
+```
+
+### 2 Enum Singleton
+
+```java
+public enum Singleton {
+	INSTANCE;
+}
+```
+
+### 3 Synchronized Accessor (ленивый)
+
+```java
+public class Singleton {
+	private static Singleton instance;
+	
+	public static synchronized Singleton getInstance() {
+		if (instance == null) {
+			instance = new Singleton();
+		}
+		return instance;
+	}
+}
+```
+
+### 4 Double Checked Locking & volatile
+
+```java
+public class Singleton {
+  private static volatile Singleton instance;
+	
+  public static Singleton getInstance() {
+		  Singleton localInstance = instance;
+    if (localInstance == null) {
+			    synchronized (Singleton.class) {
+				   localInstance = instance;
+				   if (localInstance == null) {
+         instance = localInstance = new Singleton();
+       }
+     }
+   }
+		 return localInstance;
+	 }
+}
+```
+
+### 5 On Demand Holder idiom
+
+```java
+public class Singleton {
+		
+	public static class SingletonHolder {
+		public static final Singleton HOLDER_INSTANCE = new Singleton();
+	}
+		
+	public static Singleton getInstance() {
+		return SingletonHolder.HOLDER_INSTANCE;
+	}
+}
+```
