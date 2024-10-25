@@ -169,3 +169,50 @@ try {
 } catch (InterruptedException ignored) {
 }
 ```
+
+### Locks
+
+![image](https://github.com/user-attachments/assets/7d0e9a9b-4a10-42a6-a9e6-ecba8e9b2a95)
+
+* Метод lock захватывает замок. После этого другие вызывающие метод lock ждут пока замок не
+осободится.
+* Метод unlock отпускает замок.
+* Использовать надо в блоке try-finally.
+* Еще есть метод tryLock - пытается взять замок, если получилось - возвращает true. При помощи этого метода можно забирать несколько замков в разном порядке.
+* Виды замков:
+  * ReentrantLock - базовый замок.
+  * ReadWriteReentrantLock - замок с двумя мониторами на чтение и на запись. Чтение блокиру-
+ется, когда происходит запись. Несколько потоков могут держать readLock.
+
+```java
+class SmartSyncContainer {
+    private int x;
+
+    private final ReadWriteLock lock = new ReentrantReadWriteLock();
+
+    public void setX(int x) {
+        lock.writeLock().lock();
+        try {
+            this.x = x;
+        } finally {
+            lock.writeLock().unlock();
+        }
+    }
+
+    public int getX() {
+        lock.readLock().lock();
+        try {
+            return x;
+        } finally {
+            lock.readLock().unlock();
+        }
+    }
+}
+```
+
+* Есть два варианты справедливости:
+  * справедливый - потоки приобретают справедливый замок в том порядке, в котором его запра-
+шивали.
+  * несправедливый - может произойти проталкивание, при наличии в данный замка в свободном
+состоянии.
+
