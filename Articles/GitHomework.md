@@ -84,3 +84,6 @@ git checkout master
 
 ![image](https://github.com/user-attachments/assets/cd7b8604-60e8-4073-949a-ca97b742ddef)
 
+# Task 5
+
+Тут хз, что писать сюда. Задания выполнил - в тонкостях гита разобрался.
