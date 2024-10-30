@@ -40,3 +40,47 @@ git reset --hard 414875a
 ```
 
 ![image](https://github.com/user-attachments/assets/2938e755-26b7-4a4c-a140-3becfa9a2272)
+
+## reverted-merge
+
+![image](https://github.com/user-attachments/assets/4d5e9bd1-4dbc-4e28-beff-ec0b3a29867e)
+
+```
+git add .
+git commit -m "reverting"
+git log --all --decorate --oneline --graph
+git checkout integrate-library-1.2.4
+git add .
+git commit -m "lib fix"
+git checkout master
+git merge integrate-library-1.2.4
+git add .
+git commit -m "resolve merge"
+```
+
+![image](https://github.com/user-attachments/assets/2ffcaa0a-f5e7-44f8-bf12-b71671c450e4)
+
+## Save my commit
+
+![image](https://github.com/user-attachments/assets/3f1cb6c6-21d1-40a8-9739-803b4aef4162)
+
+```
+git reflog
+git checkout c327d30
+git checkout eebf7b3
+git branch -D master
+git checkout -b master
+```
+
+![image](https://github.com/user-attachments/assets/29eabc02-a84e-4c40-a938-8efe65f0155f)
+
+## Detached head state
+
+![image](https://github.com/user-attachments/assets/a58d77e2-cc3c-4d40-b3fd-6208ce4b11bd)
+
+```
+git checkout master
+```
+
+![image](https://github.com/user-attachments/assets/cd7b8604-60e8-4073-949a-ca97b742ddef)
+
