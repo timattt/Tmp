@@ -7,6 +7,8 @@
 
 Макеты [тут](https://www.figma.com/design/530tYYVWV4cDioTnHRBT4r/type-5?node-id=0-1&node-type=canvas&t=5YOEHYQAIKCEOncO-0)
 
+Также надо добавить возможность менять язык.
+
 ## Термины
 
 * Тест - группа вопросов. Тест может создать пользователь
