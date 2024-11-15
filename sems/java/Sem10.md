@@ -57,4 +57,16 @@ ApplicationContext context = new AnnotationConfigApplicationContext(MyConfig.cla
 * Аннотация @Lazy дает команду IoC-контейнеру создать экземпляр бина при первом запросе, а не при запуске.
 
 ## Spring boot
+
+* spring - библиотека
+* spring boot - группа библиотек поверх spring с такими фичами:
+    * Вместо зависимостей стартеры
+    * Конфигурация автоматическая
+    * Сервер находится внутри итогового jar-файла
+* конфигурация через https://start.spring.io/
+* Spring Boot всегда автоматически ищет файлы application.properties
+* Можно создавать свою собственную автоконфигурацию. Для этого нужно, чтобы в jar был файл
+META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports. В нем нужно пе-
+речислить все классы конфигурации.
   
+
