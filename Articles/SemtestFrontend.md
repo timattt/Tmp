@@ -11,7 +11,7 @@
 Оно показывается только в браузере создателя теста, и он через проектор показывает его всем (привет, лекционные тесты по квантмеху) 
 Такой механизм нужен, чтобы проводить тесты в аудитории, таким образом, чтобы только те, кто есть на месте могли бы его проходить.
 
-Макеты [тут]([https://www.figma.com/design/530tYYVWV4cDioTnHRBT4r/type-5?node-id=0-1&node-type=canvas&t=5YOEHYQAIKCEOncO-0](https://www.figma.com/design/kJYp9y4XbIO32IpfYZKJne/type-5-%D0%A1%D0%9E%D0%93%D0%9B%D0%90%D0%A1%D0%9E%D0%92%D0%90%D0%9D%D0%98%D0%95?node-id=0-1&node-type=canvas&t=aCtBwGsFLAdBfFmD-0))
+Макеты [тут](https://www.figma.com/design/kJYp9y4XbIO32IpfYZKJne/type-5-%D0%A1%D0%9E%D0%93%D0%9B%D0%90%D0%A1%D0%9E%D0%92%D0%90%D0%9D%D0%98%D0%95?node-id=0-1&node-type=canvas&t=aCtBwGsFLAdBfFmD-0)
 
 
 Документация к бекенду [тут](https://backend.quiz.mipt.io/api/v1/public/webjars/swagger-ui/index.html)
