@@ -61,4 +61,41 @@ public class TestAspect {
 }
 ```
 
+## Jdbc starter
 
+* DataSource - настройка подключения к БД (бин)
+* JDBCTemplate - запросы через query и update
+* BeanPropertyRowMapper - маппинг строки БД в объект
+
+```
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>2.2.224</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+```
+
+* properties:
+
+```
+spring.datasource.url=jdbc:h2:mem:dcbapp
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=password
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+```
+
+## Jpa starter
+
+* Сущности (@Entity) - ORM - маппим класс к таблице в Бд
+* репозитории (@Reposiotry) - доступ к таблицам - отсюда можно получить классы сущностей
+* @Transactional - создание методов-транзакций
