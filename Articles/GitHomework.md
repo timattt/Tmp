@@ -100,5 +100,13 @@ git checkout master
 
 ![image](https://github.com/user-attachments/assets/7f9ba6f3-741d-4cee-8c16-bf3afc62a10e)
 
+## bisect
 
+Используем бин поиск для нахождения плохого коммита
+
+![image](https://github.com/user-attachments/assets/fd1138f5-3fc2-4214-9e3c-6a2172899fea)
+
+Нашли
+
+![image](https://github.com/user-attachments/assets/5d06004a-f4d3-4567-bd7f-54fd35fe3c49)
 
