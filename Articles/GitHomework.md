@@ -86,4 +86,19 @@ git checkout master
 
 # Task 5
 
-Тут хз, что писать сюда. Задания выполнил - в тонкостях гита разобрался.
+## git-attributes 
+
+Потестили смену концов строк в файле атрибутов
+
+![image](https://github.com/user-attachments/assets/a3891b21-450f-4ce8-ba68-4275e3ae7b52)
+
+Добавили настроки в файл конфига в репе и а файл атрибутов
+
+![image](https://github.com/user-attachments/assets/15f76278-85b9-41ea-a3e3-8fcdb75a47b5)
+
+Теперь виден диф для картинки
+
+![image](https://github.com/user-attachments/assets/7f9ba6f3-741d-4cee-8c16-bf3afc62a10e)
+
+
+
