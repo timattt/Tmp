@@ -132,4 +132,31 @@ git checkout master
 
 ![image](https://github.com/user-attachments/assets/e486534f-0727-430f-9322-180d2e7e4576)
 
-## 
+## merge driver
+
+Подключили драйвер
+
+![image](https://github.com/user-attachments/assets/48453dbb-cf2c-4e92-81a5-9f3302f1c3af)
+
+атрибуты настроили
+
+![image](https://github.com/user-attachments/assets/5c0eeed3-2455-47d5-8aeb-a03c054200fa)
+
+авто мердж
+
+![image](https://github.com/user-attachments/assets/e2239d41-2678-40ab-a93c-23f1cbd8b3b5)
+
+## Rebase Exec
+
+ребейзим
+
+![image](https://github.com/user-attachments/assets/78aee194-8280-4820-9f99-4a7fac017070)
+
+![image](https://github.com/user-attachments/assets/87f18679-26a1-4152-aec8-ffb6cbd64a1d)
+
+![image](https://github.com/user-attachments/assets/f572df22-d4b2-41f2-9510-27a8ca711e30)
+
+![image](https://github.com/user-attachments/assets/82850c85-b71f-4f8a-b946-d36b206191eb)
+
+![image](https://github.com/user-attachments/assets/6d010dec-ff6d-4be9-a201-844db28fc3f2)
+
