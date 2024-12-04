@@ -110,3 +110,13 @@ git checkout master
 
 ![image](https://github.com/user-attachments/assets/5d06004a-f4d3-4567-bd7f-54fd35fe3c49)
 
+## bad commit
+
+ищем коммит
+
+![image](https://github.com/user-attachments/assets/8613f906-c6ed-4974-ab60-a48ea1efd79c)
+
+нашли коммит и откатили - файл пропал
+
+![image](https://github.com/user-attachments/assets/043c0074-bc82-4c23-b591-8e0e732e90ee)
+
