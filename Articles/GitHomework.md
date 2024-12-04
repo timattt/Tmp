@@ -120,3 +120,9 @@ git checkout master
 
 ![image](https://github.com/user-attachments/assets/043c0074-bc82-4c23-b591-8e0e732e90ee)
 
+## pre-push
+
+Скрипт выполняется при каждом пуше в мастер. В другие ветки - ок, так как exitcode = 0
+
+![image](https://github.com/user-attachments/assets/93f0fb62-504b-4f11-a78a-0049ea69b7a0)
+
