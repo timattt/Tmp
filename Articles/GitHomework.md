@@ -126,3 +126,10 @@ git checkout master
 
 ![image](https://github.com/user-attachments/assets/93f0fb62-504b-4f11-a78a-0049ea69b7a0)
 
+## investigation
+
+исследовали блобы в репозитории
+
+![image](https://github.com/user-attachments/assets/e486534f-0727-430f-9322-180d2e7e4576)
+
+## 
